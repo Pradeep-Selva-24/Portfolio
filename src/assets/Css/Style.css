@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {margin: 0!important;padding: 0;}
+* {box-sizing: border-box;font-family: 'Poppins', sans-serif;margin: 0;padding: 0;scroll-behavior: smooth;scroll-padding-top: 60px;}
+a:hover{color: rgb(133, 76, 230) !important;}
+#app .navbar{background-color: rgb(25, 25, 36);height: 80px;display: flex;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;font-size: 1rem;position: sticky;top: 0px;z-index: 10;}
+#app .navbar .navbar-container{display: flex;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;height: 60px;z-index: 1;width: 100%;padding: 0px 24px;max-width: 1200px;}
+#app .navbar .navbar-brand{width: 80%;padding: 0px 6px;display: flex;-webkit-box-pack: start;justify-content: start;-webkit-box-align: center;align-items: center;text-decoration: none;cursor: pointer;}
+#app .navbar .navbar-brand span{padding: 0px 4px;font-weight: bold;font-size: 18px;color: white;}
+#app .navbar .navbar-collapse{width: 100%;display: flex;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;gap: 32px;row-gap: 32px;column-gap: 32px;padding: 0px 6px;list-style: none;}
+#app .navbar .navbar-collapse .nav-link{color: rgb(242, 243, 244);font-weight: 500;cursor: pointer;transition: all 0.2s ease-in-out 0s;text-decoration: none;text-decoration-line: none;text-decoration-thickness: initial;text-decoration-style: initial;}
+#app .navbar .navbar-collapse ul{width: 100%;display: flex;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;gap: 20px;padding: 0px 6px;list-style: none;}
+.clsGithub, .clsCertifications{width: 80%;height: 100%;display: flex;-webkit-box-pack: end;justify-content: end;-webkit-box-align: center;align-items: center;padding: 0px 6px;}
+.clsGithub a, .clsCertifications a{border: 1.8px solid rgb(133, 76, 230);-webkit-box-pack: center;justify-content: center;display: flex;-webkit-box-align: center;align-items: center;height: 70%;border-radius: 20px;color: rgb(133, 76, 230) !important;cursor: pointer;padding: 5px 20px;font-weight: 500;text-decoration: none;font-size: 16px;transition: all 0.6s ease-in-out 0s;white-space: nowrap;}
+.clsGithub a:hover, .clsCertifications a:hover{background: rgb(133, 76, 230);color: rgb(255, 255, 255) !important;}
+#app .clsbodybg {background-color: rgb(28, 28, 39);width: 100%;overflow-x: hidden;}
+
+/* About */
+.clsAbout {background: rgb(25, 25, 36);display: flex;-webkit-box-pack: center;justify-content: center;position: relative;padding: 80px 30px;z-index: 1;clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);}
+.clsAbout .clsAboutSvg {position: absolute;display: flex;-webkit-box-pack: end;justify-content: end;inset: 50% 0px 0px 50%;width: 100%;height: 100%;max-width: 1360px;overflow: hidden;padding: 0px 30px;transform: translateX(-50%) translateY(-50%);}
+.clsAbout .clsSvg {width: 600px;height: 500px;}
+.clsAbout .clsContent {position: relative;display: flex;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;width: 100%;max-width: 1100px;}
+.clsAbout .clsLeft {width: 100%;order: 1;}
+.clsAbout .clsline1 {font-weight: 700;font-size: 50px;color: rgb(242, 243, 244);line-height: 68px;}
+.clsAbout .clsline2 {font-weight: 600;font-size: 32px;display: flex;gap: 12px;color: rgb(242, 243, 244);line-height: 68px;}
+.clsAbout .clsline2 .clsline2-content {color: rgb(133, 76, 230);cursor: pointer;}
+.clsAbout .clsline3 {font-size: 20px;line-height: 32px;margin-bottom: 42px;color: rgba(242, 243, 244, 0.584);}
+.clsAbout .clsViewbtn {appearance: button;text-decoration: none;width: 95%;max-width: 300px;text-align: center;padding: 16px 0px;color: rgb(255, 255, 255);border-radius: 20px;cursor: pointer;font-size: 20px;font-weight: 600;background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px;transition: all 0.2s ease-in-out 0s !important;}
+.clsAbout .clsViewbtn:hover {transform: scale(1.05);transition: all 0.4s ease-in-out 0s;color: rgb(255, 255, 255) !important;}
+.clsAbout .clsReight {width: 100%;display: flex;order: 2;-webkit-box-pack: end;justify-content: end;gap: 12px;}
+.clsAbout .clsReight .clsImg {position: relative;width: 100%;height: 100%;max-width: 400px;max-height: 400px;border-radius: 50%;border: 2px solid rgb(133, 76, 230);}
+/* About */
+
+/* Skills & Experience Bg */
+.cls-skills-experience-bg {background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);width: 100%;clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);}
+/* Skills & Experience Bg */
+
+/* Skills */
+.clsSkills {display: flex;flex-direction: column;-webkit-box-pack: center;justify-content: center;position: relative;z-index: 1;-webkit-box-align: center;align-items: center;}
+.clsSkills .clsContent {position: relative;display: flex;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;flex-direction: column;width: 100%;max-width: 1100px;gap: 12px;}
+.clsSkills .clsHeading {font-size: 42px;text-align: center;font-weight: 600;margin-top: 20px;color: rgb(242, 243, 244);}
+.clsSkills .clsDescription {font-size: 18px;text-align: center;max-width: 600px;color: rgb(177, 178, 179);}
+.clsSkills .clsCard {width: 100%;display: flex;flex-wrap: wrap;margin-top: 30px;gap: 30px;-webkit-box-pack: center;justify-content: center;}
+.clsSkills .clsCard .cls-Card-Content {width: 100%;max-width: 500px;background: rgb(23, 23, 33);border: 0.1px solid rgb(133, 76, 230);box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;border-radius: 16px;padding: 18px 36px;}
+.clsSkills .clsCard .cls-Card-Title {font-size: 28px;font-weight: 600;color: rgb(177, 178, 179);margin-bottom: 20px;text-align: center;}
+.clsSkills .clsCard .cls-Card-Description {display: flex;-webkit-box-pack: center;justify-content: center;flex-wrap: wrap;gap: 12px;margin-bottom: 20px;}
+.clsSkills .clsCard .cls-Card-Points {font-size: 16px;font-weight: 400;color: rgba(242, 243, 244, 0.5);border: 1px solid rgba(242, 243, 244, 0.5);border-radius: 12px;padding: 12px 16px;display: flex;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;gap: 8px;}
+.clsSkills .clsCard .cls-Card-Img {width: 24px;height: 24px;}
+/* Skills */
+
+/* Experience */
+.clsExperience {display: flex;flex-direction: column;-webkit-box-pack: center;justify-content: center;position: relative;z-index: 1;-webkit-box-align: center;align-items: center;padding: 40px 0px 80px;}
+.clsExperience .clsContent {position: relative;display: flex;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;flex-direction: column;width: 100%;max-width: 1350px;padding: 80px 0px;gap: 12px;}
+.clsExperience .clsHeading {font-size: 42px;text-align: center;font-weight: 600;margin-top: 20px;color: rgb(242, 243, 244);}
+.clsExperience .clsDescription {font-size: 18px;text-align: center;max-width: 600px;color: rgb(177, 178, 179);}
+.clsExperience .clsCard {width: 100%;max-width: 1000px;margin-top: 10px;display: flex;flex-direction: column;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;gap: 12px;}
+.clsExperience .clsCard ul {display: flex;flex-direction: column;padding: 6px 16px;-webkit-box-flex: 1;flex-grow: 1;}
+.clsExperience .clsCard ul li {list-style: none;display: flex;position: relative;min-height: 70px;}
+.clsExperience .clsCard ul li {content: "";flex: 1 1 0%;padding: 6px 16px;}
+.clsExperience .clsCard ul li::before {content: "";flex: 1 1 0%;padding: 6px 16px;}
+.clsExperience .clsCard ul li .clsline-content {display: flex;flex-direction: column;flex: 0 1 0%;-webkit-box-align: center;align-items: center;}
+.clsExperience .clsCard ul li .clsline-content .clsline-start {display: flex;align-self: baseline;border-style: solid;border-width: 2px;padding: 4px;border-radius: 50%;box-shadow: none;margin: 11.5px 0px;background-color: transparent;border-color: rgb(156, 39, 176);}
+.clsExperience .clsCard ul li .clsline-content .clsline-end {width: 2px;background-color: rgb(189, 189, 189);-webkit-box-flex: 1;flex-grow: 1;background: rgb(133, 76, 230);}
+.clsExperience .clsCard ul li .clsBriefDescription {margin: 0px;font-family: Roboto, Helvetica, Arial, sans-serif;font-weight: 400;font-size: 1rem;line-height: 1.5;letter-spacing: 0.00938em;flex: 1 1 0%;text-align: left;padding: 12px 16px;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-content {width: 650px;border-radius: 10px;padding: 12px 16px;-webkit-box-pack: justify;justify-content: space-between;position: relative;overflow: hidden;display: flex;flex-direction: column;gap: 12px;transition: all 0.3s ease-in-out 0s;border: 0.1px solid rgb(48, 110, 232);box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-content:hover {box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px;transform: translateY(-5px);}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-head {width: 100%;display: flex;gap: 12px;}
+.clsExperience .clsCard ul li .clsBriefDescription .clslogo {height: 50px;background-color: rgb(0, 0, 0);border-radius: 10px;margin-top: 4px;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-des {width: 100%;display: flex;flex-direction: column;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsRole {font-size: 18px;font-weight: 600;color: rgba(242, 243, 244, 0.6);}
+.clsExperience .clsCard ul li .clsBriefDescription .clsCompanyName {font-size: 14px;font-weight: 500;color: rgba(177, 178, 179, 0.6);}
+.clsExperience .clsCard ul li .clsBriefDescription .clsDuration {font-size: 12px;font-weight: 400;color: rgba(177, 178, 179, 0.5);}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-About {width: 100%;font-size: 15px;font-weight: 400;color: rgba(242, 243, 244, 0.6);margin-bottom: 10px;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-About span {overflow: hidden;display: -webkit-box;max-width: 100%;-webkit-line-clamp: 4;-webkit-box-orient: vertical;text-overflow: ellipsis;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-content:hover .clsBriefDescription-About span {overflow: visible;-webkit-line-clamp: unset;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-About .clsSkill {width: 100%;display: flex;gap: 12px;margin-top: -10px;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-About .clsSkill-content  {display: flex;flex-wrap: wrap;gap: 8px;}
+.clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-About .clsSkill .clsSkill-type {font-size: 15px;font-weight: 400;color: rgba(242, 243, 244, 0.6);}
+/* Experience */
+
+/* Project */
+.clsProjects {background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);display: flex;flex-direction: column;-webkit-box-pack: center;justify-content: center;position: relative;z-index: 1;-webkit-box-align: center;align-items: center;clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 100% 98%, 0px 100%);}
+.clsProjects .clsContent {position: relative;display: flex;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;flex-direction: column;width: 100%;max-width: 1350px;padding: 10px 0px 100px;gap: 12px;}
+.clsProjects .clsTitle {font-size: 42px;text-align: center;font-weight: 600;margin-top: 20px;color: rgb(242, 243, 244);}
+.clsProjects .clsDescription {font-size: 18px;text-align: center;max-width: 600px;margin-bottom: 35px;color: rgb(177, 178, 179);}
+.clsProjects .clsDescription-content {display: flex;-webkit-box-pack: center;justify-content: center;-webkit-box-align: center;align-items: center;gap: 28px;flex-wrap: wrap;}
+.clsProjects .clsDescription-content .clsCard {width: 330px;height: 429px;background-color: rgb(23, 23, 33);cursor: pointer;border-radius: 10px;box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;overflow: hidden;padding: 26px 20px;display: flex;flex-direction: column;gap: 14px;transition: all 0.5s ease-in-out 0s;}
+.clsProjects .clsDescription-content .clsCard:hover {transform: translateY(-10px);box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 50px 4px;filter: brightness(1.1);}
+.clsProjects .clsDescription-content .clslogo {width: 50%;height: 100px;border-radius: 10px;box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 16px 2px;}
+.clsProjects .clsDescription-content .cslTechnology {width: 100%;display: flex;-webkit-box-align: center;align-items: center;flex-wrap: wrap;gap: 8px;margin-top: 4px;}
+.clsProjects .clsDescription-content .cslTechnology span {font-size: 12px;font-weight: 400;color: rgb(133, 76, 230);background-color: rgba(133, 76, 230, 0.082);padding: 2px 8px;border-radius: 10px;}
+.clsProjects .clsDescription-content .clsDec-content {width: 100%;display: flex;flex-direction: column;gap: 0px;padding: 0px 2px;}
+.clsProjects .clsDescription-content .clsDec-content .clsTitle {font-size: 20px;font-weight: 600;color: rgb(177, 178, 179);display: -webkit-box;max-width: 100%;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;}
+.clsProjects .clsDescription-content .clsDec-content .clsDuration {font-size: 12px;margin-left: 2px;font-weight: 400;color: rgba(177, 178, 179, 0.5);}
+.clsProjects .clsDescription-content .clsDec-content .clsDec {font-weight: 400;color: rgba(177, 178, 179, 0.6);overflow: hidden;margin-top: 8px;display: -webkit-box;max-width: 100%;-webkit-line-clamp: 2;-webkit-box-orient: vertical;text-overflow: ellipsis;}
+.clsProjects .clsDescription-content .cslFooter {display: flex;-webkit-box-align: center;align-items: center;padding-left: 10px;}
+/* Project */
+
+/* Education & Contact */
+.cls-education-contact-bg {background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);width: 100%;clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);}
+/* Education & Contact */
+
+/* Education*/
+.clsEducation {display: flex;flex-direction: column;-webkit-box-pack: center;justify-content: center;position: relative;z-index: 1;-webkit-box-align: center;align-items: center;padding: 0px 0px 60px;}
+.clsEducation .clsContent {position: relative;display: flex;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;flex-direction: column;width: 100%;max-width: 1350px;padding: 40px 0px 0px;gap: 12px;}
+.clsEducation .clsContent .clsTitle {font-size: 42px;text-align: center;font-weight: 600;margin-top: 20px;color: rgb(242, 243, 244);}
+.clsEducation .clsContent .clsDescription {font-size: 18px;text-align: center;max-width: 600px;color: rgb(177, 178, 179);}
+.clsEducation .clsContent .clsDec-content {width: 100%;max-width: 1000px;margin-top: 10px;display: flex;flex-direction: column;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;gap: 12px;}
+.clsEducation .clsContent .clsDec-content ul {display: flex;flex-direction: column;padding: 6px 16px;-webkit-box-flex: 1;flex-grow: 1;}
+.clsEducation .clsContent .clsDec-content ul li {list-style: none;display: flex;position: relative;min-height: 70px;}
+.clsEducation .clsContent .clsDec-content ul li::before {content: "";flex: 1 1 0%;padding: 6px 16px;}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card {margin: 0px;font-family: Roboto, Helvetica, Arial, sans-serif;font-weight: 400;font-size: 1rem;line-height: 1.5;letter-spacing: 0.00938em;flex: 1 1 0%;text-align: left;padding: 12px 16px;}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Content {width: 650px;border-radius: 10px;box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;padding: 12px 16px;-webkit-box-pack: justify;justify-content: space-between;position: relative;overflow: hidden;display: flex;flex-direction: column;gap: 12px;transition: all 0.3s ease-in-out 0s;border: 0.1px solid rgb(133, 76, 230);}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Content:hover {box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px;transform: translateY(-5px);}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Description {width: 100%;display: flex;gap: 12px;}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Img {height: 50px;background-color: rgb(0, 0, 0);border-radius: 10px;margin-top: 4px;background-color: white;}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Points {width: 100%;display: flex;flex-direction: column;}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Point1 {font-size: 18px;font-weight: 600;color: rgba(242, 243, 244, 0.6);}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Point2 {font-size: 14px;font-weight: 500;color: rgba(177, 178, 179, 0.6);}
+.clsEducation .clsContent .clsDec-content ul li .cls-Card-Point3 {font-size: 12px;font-weight: 400;color: rgba(177, 178, 179, 0.5);}
+.clsEducation .clsContent .clsDec-content ul li .clsGrade {font-size: 14px;font-weight: 500;color: rgba(177, 178, 179, 0.6);}
+.clsEducation .clsContent .clsDec-content ul li .clsGrade-about {width: 100%;font-size: 15px;font-weight: 400;color: rgba(242, 243, 244, 0.6);margin-bottom: 10px;}
+.clsEducation .clsContent .clsDec-content ul li .clsGrade-about span {overflow: hidden;display: -webkit-box;max-width: 100%;-webkit-line-clamp: 4;-webkit-box-orient: vertical;text-overflow: ellipsis;}
+.clsEducation .clsContent .clsDec-content ul li .clsline-content {display: flex;flex-direction: column;flex: 0 1 0%;-webkit-box-align: center;align-items: center;}
+.clsEducation .clsContent .clsDec-content ul li .clsline-content .clsline-start {display: flex;align-self: baseline;border-style: solid;border-width: 2px;padding: 4px;border-radius: 50%;box-shadow: none;margin: 11.5px 0px;background-color: transparent;border-color: rgb(156, 39, 176);}
+.clsEducation .clsContent .clsDec-content ul li .clsline-content .clsline-end {width: 2px;background-color: rgb(189, 189, 189);-webkit-box-flex: 1;flex-grow: 1;background: rgb(133, 76, 230);}
+/* Education*/
+
+/* Contact */
+.clsContact {display: flex;flex-direction: column;-webkit-box-pack: center;justify-content: center;position: relative;z-index: 1;-webkit-box-align: center;align-items: center;}
+.clsContact .clscontent {position: relative;display: flex;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;flex-direction: column;width: 100%;max-width: 1350px;padding: 0px 0px 80px;gap: 12px;}
+.clsContact .clsTitle {font-size: 42px;text-align: center;font-weight: 600;margin-top: 20px;color: rgb(242, 243, 244);}
+.clsContact .clscontent .clsDescription {font-size: 18px;text-align: center;max-width: 600px;color: rgb(177, 178, 179);}
+.clsContact .clscontent .clsFields {width: 95%;max-width: 600px;display: flex;flex-direction: column;background-color: rgb(23, 23, 33);padding: 32px;border-radius: 16px;box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;margin-top: 28px;gap: 12px;}
+.clsContact .clscontent .clsFields .clsDescription-Title {font-size: 24px;margin-bottom: 6px;font-weight: 600;color: rgb(242, 243, 244);}
+.clsContact .clscontent .clsFields input {flex: 1 1 0%;background-color: transparent;border: 1px solid rgb(177, 178, 179);outline: none;font-size: 18px;color: rgb(242, 243, 244);border-radius: 12px;padding: 12px 16px;}
+.clsContact .clscontent .clsFields textarea{flex: 1 1 0%;background-color: transparent;border: 1px solid rgb(177, 178, 179);outline: none;font-size: 18px;color: rgb(242, 243, 244);border-radius: 12px;padding: 12px 16px;}
+.clsContact .clscontent .clsFields .clsButton {width: 100%;text-decoration: none;text-align: center;cursor: pointer;background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);padding: 13px 16px;margin-top: 2px;border-radius: 12px;border: none;font-size: 18px;font-weight: 600;}
+.clsContact .clscontent .clsFields .clsMessage{color: #fff;text-align: center;}
+/* Contact */
+
+/* Footer */
+.clsFooter {width: 100%;padding: 2rem 0px;display: flex;-webkit-box-pack: center;justify-content: center;}
+.clsFooter footer {width: 100%;max-width: 1200px;display: flex;flex-direction: column;gap: 14px;-webkit-box-align: center;align-items: center;padding: 1rem;color: rgb(242, 243, 244);}
+.clsFooter h1 {font-weight: 600;font-size: 20px;color: rgb(133, 76, 230);}
+.clsFooter nav {width: 100%;max-width: 800px;margin-top: 0.5rem;display: flex;flex-direction: row;gap: 2rem;-webkit-box-pack: center;justify-content: center;}
+.clsFooter nav a {color: rgb(242, 243, 244);text-decoration: none;font-size: 1.2rem;transition: color 0.2s ease-in-out 0s;}
+.clsFooter .clscontent {display: flex;margin-top: 1rem;}
+.clsFooter .clscontent .clsSvg {display: inline-block;margin: 0px 1rem;font-size: 1.5rem;color: rgb(242, 243, 244);transition: color 0.2s ease-in-out 0s;}
+.clsFooter .clsCopyRights {margin-top: 1.5rem;font-size: 0.9rem;text-align: center;}
+/* Footer */
+
+
+/* Popup */
+.clsPopup {width: 100%;height: 100%;position: absolute;top: 0px;left: 0px;background-color: rgba(0, 0, 0, 0.655);display: flex;-webkit-box-pack: center;justify-content: center;overflow-y: scroll;transition: all 0.5s ease 0s;z-index: 99999;opacity: 2;}
+.clsPopup .clsPopup-content {max-width: 800px;width: 100%;border-radius: 16px;margin: 50px 12px;height: min-content;background-color: rgb(23, 23, 33);color: rgb(242, 243, 244);padding: 20px;display: flex;flex-direction: column;position: relative;}
+.clsPopup .clsCancel {user-select: none;width: 1em;height: 1em;display: inline-block;fill: currentcolor;flex-shrink: 0;transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size: 1.5rem;}
+.clsPopup .clsTitle-1 {font-size: 28px;font-weight: 600;color: rgb(242, 243, 244);margin: 8px 6px 0px;}
+.clsPopup .clsTitle-2 {font-size: 16px;margin: 2px 6px;font-weight: 400;color: rgb(177, 178, 179);}
+.clsPopup .clsSkill {display: flex;flex-wrap: wrap;margin: 8px 0px;}
+.clsPopup .clsSkill div {font-size: 14px;font-weight: 400;color: rgb(133, 76, 230);margin: 4px;padding: 4px 8px;border-radius: 8px;background-color: rgba(133, 76, 230, 0.125);}
+.clsPopup .clsRole {font-size: 16px;margin: 2px 6px;font-weight: 400;color: rgb(177, 178, 179);}
+.clsPopup label {font-size: 18px;font-weight: bold;margin-top: 13px;color: rgb(133, 76, 230);}
+.clsPopup .clsProject-dec {font-size: 16px;font-weight: 400;color: rgb(242, 243, 244);margin: 8px 6px;}
+.clsPopup .clsdec {font-size: 16px;font-weight: 400;color: rgb(242, 243, 244);margin: 8px 6px;}
+.clsPopup .clsButton {display: flex;-webkit-box-pack: end;justify-content: flex-end;margin: 12px 0px;gap: 12px;}
+.clsPopup .clsButton a {width: 100%;text-align: center;font-size: 16px;font-weight: 600;color: rgb(242, 243, 244);padding: 12px 16px;border-radius: 8px;background-color: rgb(133, 76, 230);cursor: pointer;text-decoration: none;transition: all 0.5s ease 0s;}
+
+.fadeIn-enter {opacity: 0;}
+.fadeIn-leave-active {opacity: 0;transition: all 0.2s step-end;}
+.fadeIn-enter .modal,.fadeIn-leave-active.modal {transform: scale(1.1);}
+button {padding: 7px;margin-top: 10px;background-color: green;color: white;font-size: 1.1rem;}
+.overlay {position: fixed;top: 0;left: 0;display: flex;justify-content: center;align-items: center;width: 100%;height: 100%;background: #00000094;z-index: 999;transition: opacity 0.2s ease;}
+/* Popup */
+
+.css-vubbuv {user-select: none;width: 1em;height: 1em;display: inline-block;fill: currentcolor;flex-shrink: 0;transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size: 1.5rem;}
+
+/* Scroll */
+/* Scrollbar styles for WebKit (Chrome, Safari) */
+*::-webkit-scrollbar {width: 5px;height: 5px;}
+*::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgb(5, 5, 5);-webkit-border-radius: 10px;border-radius: 10px;}
+*::-webkit-scrollbar-thumb {-webkit-border-radius: 10px;border-radius: 10px;background: rgb(255, 255, 255);-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255);}
+*::-webkit-scrollbar-thumb:window-inactive {background: rgba(255, 255, 255);}
+/* Scrollbar styles for Firefox */
+@-moz-document url-prefix() {* {scrollbar-width: thin;scrollbar-color:  rgba(5, 5, 5) rgba(255, 255, 255);}}
+/* Scrollbar styles for Microsoft Edge and IE */
+@supports (-ms-ime-align: auto) {* {scrollbar-width: thin;scrollbar-color: rgba(255, 255, 255) rgba(5, 5, 5);}}
+/* Scroll */
+
+@media (max-width:992px) {
+    /* header */
+    .navbar-toggler {border: none;}
+    .navbar-toggler svg {color: #fff;}
+    .navbar-toggler:focus:not(:focus-visible), .navbar-toggler:focus{outline: none;box-shadow: none;}
+
+    #app .navbar .navbar-collapse {flex-direction: column;justify-content: center;gap: 16px;position: absolute;top: 80px;left: 0px;width: 100%;background: rgba(25, 25, 36, 0.6);transform: translateY(0px);border-radius: 0px 0px 20px 20px;box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;opacity: 1;z-index: 1000;border-top: 2px dashed #fff;}
+    #app .navbar .navbar-collapse ul{align-items: start;padding: 12px 40px 24px;}
+
+    .clsGithub, .clsCertifications{width: 100%;justify-content: start;padding: 12px 40px 24px;}
+    .clsGithub a, .clsCertifications a{padding: 10px 16px;background: rgb(133, 76, 230);color: white !important;width: max-content;font-size: 14px}
+    /* header */
+
+    /* About */
+    .clsAbout .clsContent{flex-direction: column;}
+    .clsAbout .clsLeft{order: 2;margin-bottom: 30px;display: flex;flex-direction: column;-webkit-box-align: center;align-items: center;}
+    .clsAbout .clsReight{order: 1;-webkit-box-pack: center;justify-content: center;-webkit-box-align: center;align-items: center;margin-bottom: 80px;}
+    .clsAbout .clsReight .clsImg{max-width: 280px;max-height: 280px;}
+    .clsAbout .clsline1 {font-size: 40px;line-height: 48px;margin-bottom: 8px;}
+    .clsAbout .clsline2{font-size: 22px;line-height: 48px;margin-bottom: 16px;}
+    .clsAbout .clsline3 {font-size: 16px;line-height: 32px;}
+    .clsAbout .clsViewbtn{padding: 12px 0px;font-size: 18px;}
+    /* About */
+
+    /* Skills */
+    .clsSkills .clsContent{flex-direction: column;}
+    .clsSkills .clsHeading{margin-top: 12px;font-size: 32px;}
+    .clsSkills .clsDescription{font-size: 16px;}
+    .clsSkills .clsCard .cls-Card-Content{max-width: 330px;padding: 10px 36px;}
+    .clsSkills .clsCard .cls-Card-Points{font-size: 14px;padding: 8px 12px;}
+    /* Skills */
+
+    /* Experience */
+    .clsExperience{padding: 0px;}
+    .clsExperience .clsContent{flex-direction: column;}
+    .clsExperience .clsHeading{margin-top: 12px;font-size: 32px;}
+    .clsExperience .clsDescription {margin-top: 12px;font-size: 16px;}
+    .clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-content{padding: 10px;gap: 8px;width: 300px;}
+    .clsExperience .clsCard ul li .clsBriefDescription .clslogo{height: 40px;}
+    .clsExperience .clsCard ul li .clsBriefDescription .clsRole{font-size: 14px;}
+    .clsExperience .clsCard ul li .clsBriefDescription .clsCompanyName{font-size: 12px;}
+    .clsExperience .clsCard ul li .clsBriefDescription .clsDuration{font-size: 10px;}
+    .clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-About{font-size: 12px;}
+    .clsExperience .clsCard ul li .clsBriefDescription .clsBriefDescription-About .clsSkill .clsSkill-type{font-size: 12px;}
+    /* Experience */
+
+    /* Project */
+    .clsProjects .clsContent{flex-direction: column;}
+    .clsProjects .clsTitle{margin-top: 12px;font-size: 32px;}
+    .clsProjects .clsDescription{margin-top: 12px;font-size: 16px;}
+    .clsProjects .clsDescription-content .clsDec-content .clsDuration{font-size: 10px;}
+    /* Project */
+
+    /* Education*/
+    .clsEducation{padding: 0px;}
+    .clsEducation .clsContent{flex-direction: column;}
+    .clsEducation .clsContent .clsTitle{margin-top: 12px;font-size: 32px;}
+    .clsEducation .clsContent .clsDescription{margin-top: 12px;font-size: 16px;}
+    .clsEducation .clsContent .clsDec-content{-webkit-box-align: end;align-items: end;}
+    .clsEducation .clsContent .clsDec-content ul li .cls-Card-Content{padding: 10px;gap: 8px;width: 300px;}
+    .clsEducation .clsContent .clsDec-content ul li .cls-Card-Img{height: 40px;}
+    .clsEducation .clsContent .clsDec-content ul li .cls-Card-Point1{font-size: 14px;}
+    .clsEducation .clsContent .clsDec-content ul li .cls-Card-Point2{font-size: 12px;}
+    .clsEducation .clsContent .clsDec-content ul li .cls-Card-Point3{font-size: 10px;}
+    .clsEducation .clsContent .clsDec-content ul li .clsGrade{font-size: 12px;}
+    .clsEducation .clsContent .clsDec-content ul li .clsGrade-about{font-size: 12px;}
+    /* Education*/
+
+    /* Contact */
+    .clsContact{padding: 0px;}
+    .clsContact .clscontent{flex-direction: column;}
+    .clsContact .clsTitle{margin-top: 12px;font-size: 32px;}
+    .clsContact .clscontent .clsDescription{margin-top: 12px;font-size: 16px;}
+    /* Contact */
+
+    /* Footer */
+    .clsFooter nav{flex-wrap: wrap;gap: 1rem;-webkit-box-pack: center;justify-content: center;text-align: center;font-size: 12px;}
+    .clsFooter nav a {font-size: 1rem;}
+    /* Footer */
+
+    /* Popup */
+    .clsPopup .clsTitle-1{font-size: 24px;margin: 6px 6px 0px;}
+    .clsPopup .clsTitle-2{font-size: 12px;}
+    .clsPopup .clsSkill{margin: 4px 0px;}
+    .clsPopup .clsSkill div{font-size: 12px;}
+    .clsPopup .clsRole{font-size: 12px;}
+    .clsPopup label{font-size: 12px;}
+    .clsPopup .clsProject-dec{font-size: 14px;margin: 6px;}
+    .clsPopup .clsdec{font-size: 14px;margin: 6px;}
+    .clsPopup .clsButton a{font-size: 12px;}
+    /* Popup */
+}
